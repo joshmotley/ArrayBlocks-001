@@ -10,4 +10,7 @@
 
 @interface NSArray (Enumeration)
 
+-(NSArray *)arrayByApplyingBlock:(id(^) (id object))block;
+-(NSArray *)elementsSatisfyingBlock:(id)block;
+
 @end

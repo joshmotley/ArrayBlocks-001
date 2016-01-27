@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26B8AA981C58664800DD2419 /* NSArray+Enumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B8AA971C58664800DD2419 /* NSArray+Enumeration.m */; };
 		317BBDB51A012AD400E50696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 317BBDB41A012AD400E50696 /* main.m */; };
 		317BBDB81A012AD400E50696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 317BBDB71A012AD400E50696 /* AppDelegate.m */; };
 		317BBDBB1A012AD400E50696 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317BBDBA1A012AD400E50696 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		07417A0BF7B099C34E8DEA31 /* libPods-arrayBlocksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-arrayBlocksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B8AA961C58664800DD2419 /* NSArray+Enumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Enumeration.h"; path = "../NSArray+Enumeration.h"; sourceTree = "<group>"; };
+		26B8AA971C58664800DD2419 /* NSArray+Enumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Enumeration.m"; path = "../NSArray+Enumeration.m"; sourceTree = "<group>"; };
 		317BBDAF1A012AD400E50696 /* arrayBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arrayBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317BBDB31A012AD400E50696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		317BBDB41A012AD400E50696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				317BBDB71A012AD400E50696 /* AppDelegate.m */,
 				317BBDB91A012AD400E50696 /* ViewController.h */,
 				317BBDBA1A012AD400E50696 /* ViewController.m */,
+				26B8AA961C58664800DD2419 /* NSArray+Enumeration.h */,
+				26B8AA971C58664800DD2419 /* NSArray+Enumeration.m */,
 				317BBDBC1A012AD400E50696 /* Main.storyboard */,
 				317BBDBF1A012AD400E50696 /* Images.xcassets */,
 				317BBDC11A012AD400E50696 /* LaunchScreen.xib */,
@@ -280,6 +285,7 @@
 			files = (
 				317BBDBB1A012AD400E50696 /* ViewController.m in Sources */,
 				317BBDB81A012AD400E50696 /* AppDelegate.m in Sources */,
+				26B8AA981C58664800DD2419 /* NSArray+Enumeration.m in Sources */,
 				317BBDB51A012AD400E50696 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

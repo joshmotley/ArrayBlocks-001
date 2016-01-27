@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(NSArray *)arrayByApplyingBlock:(NSBlockOperation *)block{
+    return nil;
+};
+-(NSArray *)elementsSatisfyingBlock:(NSBlockOperation *)block{
+    return nil;
+};
 @end

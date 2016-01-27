@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+-(NSArray *)arrayByApplyingBlock:(NSBlockOperation *)block;
+-(NSArray *)elementsSatisfyingBlock:(NSBlockOperation *)block;
+
+
 
 @end
 
